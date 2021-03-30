@@ -1,3 +1,5 @@
 1.0.1:
     - First version of NotifyShopaholic
     - Added Order Created event
+1.0.2:
+    - Added installation instructions to the documentation
