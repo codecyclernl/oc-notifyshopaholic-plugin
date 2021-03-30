@@ -1,10 +1,12 @@
 # oc-notifyshopaholic-plugin
 This plugin can be used for automating Shopaholic using the `RainLab.Notify` plugin.
 
+## Installation
+You can easily install this plugin by requiring it as a dependency in your composer project. Just run `composer require codecycler/oc-notifyshopaholic-plugin` or manually add it to your `composer.json` file to install this plugin.
+
 ## Events
 ### OrderCreated
 Binded to `OrderProcessor::EVENT_ORDER_CREATED`
-
 
 ## Roadmap
 More events, conditions and actions will be developed when needed by our projects.
