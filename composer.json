@@ -1,0 +1,16 @@
+{
+    "name": "codecycler/oc-notifyshopaholic-plugin",
+    "description": "Shopaholic integration for the Notify plugin for October CMS",
+    "type": "october-plugin",
+    "require": {
+        "codecycler/oc-extend-plugin": "dev-main",
+        "rainlab/notify-plugin": "dev-master"
+    },
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "Sebastiaan Kloos",
+            "email": "sebastiaan@codecycler.com"
+        }
+    ]
+}
