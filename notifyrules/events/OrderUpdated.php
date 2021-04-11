@@ -2,16 +2,16 @@
 
 use RainLab\Notify\Classes\EventBase;
 
-class OrderCreated extends EventBase
+class OrderUpdated extends EventBase
 {
     public $conditions = [];
 
     public function eventDetails()
     {
         return [
-            'name'          => e(trans('codecycler.notifyshopaholic::lang.events.order_created.name')),
-            'description'   => e(trans('codecycler.notifyshopaholic::lang.events.order_created.description')),
-            'group'         => e(trans('codecycler.notifyshopaholic::lang.events.order_created.group')),
+            'name'          => e(trans('codecycler.notifyshopaholic::lang.events.order_updated.name')),
+            'description'   => e(trans('codecycler.notifyshopaholic::lang.events.order_updated.description')),
+            'group'         => e(trans('codecycler.notifyshopaholic::lang.events.order_updated.group')),
         ];
     }
 

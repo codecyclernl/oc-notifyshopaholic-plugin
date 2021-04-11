@@ -3,8 +3,7 @@
     "description": "Shopaholic integration for the Notify plugin for October CMS",
     "type": "october-plugin",
     "require": {
-        "codecycler/oc-extend-plugin": "dev-main",
-        "rainlab/notify-plugin": "dev-master"
+        "codecycler/oc-extend-plugin": "dev-main"
     },
     "license": "GPL-3.0-only",
     "authors": [

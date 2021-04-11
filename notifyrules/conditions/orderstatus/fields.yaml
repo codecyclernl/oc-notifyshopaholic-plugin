@@ -1,0 +1,5 @@
+fields:
+  status_id:
+    label: Status
+    type: dropdown
+    span: full

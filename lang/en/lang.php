@@ -1,13 +1,18 @@
 <?php return [
     'plugin' => [
         'name'          => 'Shopaholic for Notify',
-        'description'   => 'Shopaholic integration for the Notify plugin for October CMS',
+        'description'   => 'Shopaholic integration for the RainLab.Notify plugin for October CMS',
     ],
 
     'events' => [
         'order_created' => [
             'name' => 'Order created',
             'description' => 'When an order is created',
+            'group' => 'shopaholic',
+        ],
+        'order_updated' => [
+            'name' => 'Order updated',
+            'description' => 'When an order is updated',
             'group' => 'shopaholic',
         ],
     ],
