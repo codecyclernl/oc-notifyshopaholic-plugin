@@ -8,6 +8,9 @@ You can easily install this plugin by requiring it as a dependency in your compo
 ### OrderCreated
 Binded to `OrderProcessor::EVENT_ORDER_CREATED`
 
+### OrderUpdated
+Binded to `Codecycler\NotifyShopaholic\Classes\Events\ExtendOrderModel::EVENT_ORDER_UPDATED` which listens to the `afterUpdate` event for the `Order` model.
+
 ## Roadmap
 More events, conditions and actions will be developed when needed by our projects.
 
