@@ -9,6 +9,7 @@ use Codecycler\NotifyShopaholic\NotifyRules\Events\OrderCreated;
 use Codecycler\NotifyShopaholic\NotifyRules\Events\OrderUpdated;
 use Codecycler\NotifyShopaholic\Classes\Events\ExtendOrderModel;
 use Codecycler\NotifyShopaholic\NotifyRules\Conditions\OrderStatus;
+use Codecycler\NotifyShopaholic\NotifyRules\Actions\UpdateOrderStatus;
 
 /**
  * NotifyShopaholic Plugin Information File
@@ -58,7 +59,9 @@ class Plugin extends PluginBase
                 OrderCreated::class,
                 OrderUpdated::class,
             ],
-            'actions' => [],
+            'actions' => [
+                UpdateOrderStatus::class,
+            ],
             'conditions' => [
                 OrderStatus::class,
             ],

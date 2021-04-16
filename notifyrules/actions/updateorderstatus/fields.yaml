@@ -1,0 +1,9 @@
+fields:
+    order_number:
+        label: "Order number"
+        type: string
+        span: left
+    status:
+        label: "Change order to status:"
+        type: dropdown
+        span: left
