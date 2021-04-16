@@ -1,7 +1,7 @@
 fields:
     order_number:
         label: "Order number"
-        type: string
+        type: text
         span: left
     status:
         label: "Change order to status:"
